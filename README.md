@@ -9,6 +9,10 @@ No model weights are included. / 本仓库不包含模型权重。
 
 ## English
 
+![Qwen Lab English interface showing a local Qwen3.5-4B conversation](docs/images/qwen-lab-en.jpg)
+
+*English interface with a locally generated example response. No neuron intervention is enabled in this screenshot.*
+
 ### What is Qwen Lab?
 
 Qwen Lab is a local research workbench with a bilingual web interface. Chat with local models, edit prompts, adjust multiple MLP channels, and compare unmodified and steered answers side by side. It is an independent community project, not an official Qwen product.
@@ -123,6 +127,10 @@ Inference is local. Hugging Face downloads and Neuronary recipe reads require ne
 
 ## 简体中文
 
+![Qwen Lab 中文界面：本地 Qwen3.5-4B 对话示例](docs/images/qwen-lab-zh-cn.jpg)
+
+*中文界面与本地模型生成的示例回答；截图未启用神经元干预。*
+
 ### 项目功能
 
 Qwen Lab 是面向 Apple Silicon 的本地模型实验工具，提供中英文 Web 界面。支持多轮流式对话、系统提示词与用户前后缀、多层多通道神经元调节、无干预对照、逐轮配置快照、历史编辑重跑及实验导入导出。它是独立社区项目，并非 Qwen 官方产品。
@@ -209,6 +217,7 @@ qwen-lab/
 ├── data/example/                # Synthetic train/valid/test JSONL / 演示数据
 ├── tests/                       # Backend, numerical, i18n tests / 测试
 └── docs/                        # Usage guides / 使用文档
+    └── images/                  # English / 中文界面示例截图
 ```
 
 Created locally and **not committed** / 以下目录运行时生成，**不提交**：
