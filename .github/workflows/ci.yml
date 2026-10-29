@@ -1,0 +1,29 @@
+name: Portable checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  portable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Python syntax
+        run: python -m compileall -q web scripts tests
+      - name: Portable backend tests (no model downloads)
+        run: |
+          python -m unittest discover -s tests -p 'test_model_manager.py'
+          python -m unittest discover -s tests -p 'test_neuronary.py'
+          python -m unittest discover -s tests -p 'test_gguf.py'
+          python -m unittest discover -s tests -p 'test_install.py'
+      - name: Frontend syntax and translations
+        run: |
+          node --check web/static/app.js
+          node --check web/static/model-manager.js
+          node --check web/static/i18n.js
+          node tests/test_i18n.cjs

@@ -1,0 +1,4 @@
+{"messages": [{"role": "user", "content": "为什么保存适配器？"}, {"role": "assistant", "content": "适配器保存训练得到的小量参数，可以和基础模型一起加载。"}]}
+{"messages": [{"role": "user", "content": "什么是测试集？"}, {"role": "assistant", "content": "测试集用于评估最终模型，通常不参与训练或调参。"}]}
+{"messages": [{"role": "user", "content": "如何恢复激活干预？"}, {"role": "assistant", "content": "移除激活修改逻辑，使用原始计算路径重新运行。"}]}
+{"messages": [{"role": "user", "content": "什么是 token？"}, {"role": "assistant", "content": "token 是分词器将文本转换成的基本处理单位。"}]}

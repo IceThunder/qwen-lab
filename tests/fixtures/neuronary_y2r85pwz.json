@@ -1,0 +1,39 @@
+{
+  "id": "y2r85pwz",
+  "url": "https://neuronary.org/r/y2r85pwz",
+  "name": "Synthetic test recipe",
+  "recipe": "L7N4595-0.8",
+  "description": "Synthetic fixture for parser tests.",
+  "model": "Qwen/Qwen3.5-4B",
+  "neurons": [
+    {
+      "dose": -0.8,
+      "layer": 7,
+      "neuron": 4595
+    }
+  ],
+  "tags": [
+    "apology",
+    "style",
+    "persona"
+  ],
+  "author": "qwen-lab tests",
+  "date": "2026-10-27",
+  "score": 3,
+  "comments": 0,
+  "reproductions": 2,
+  "reproductions_partial": 0,
+  "reproductions_failed": 0,
+  "featured": true,
+  "sampling": {
+    "temperature": 0
+  },
+  "examples": [
+    {
+      "prompt": "Test prompt",
+      "base_output": "Baseline test response",
+      "output": "Modified test response"
+    }
+  ],
+  "notes": "Synthetic content; no behavioral claim."
+}

@@ -1,0 +1,8 @@
+{"messages": [{"role": "user", "content": "什么是神经元？"}, {"role": "assistant", "content": "神经元是神经网络中的计算单元，它对输入做变换并产生输出。"}]}
+{"messages": [{"role": "user", "content": "什么是激活值？"}, {"role": "assistant", "content": "激活值是模型处理某个输入时，中间计算单元产生的数值。"}]}
+{"messages": [{"role": "user", "content": "把神经元置零是什么意思？"}, {"role": "assistant", "content": "把指定位置的激活值设为零，观察后续输出如何变化。"}]}
+{"messages": [{"role": "user", "content": "放大激活值一定能增强能力吗？"}, {"role": "assistant", "content": "不一定。通道作用依赖上下文，需要多组对照实验验证。"}]}
+{"messages": [{"role": "user", "content": "什么是 LoRA？"}, {"role": "assistant", "content": "LoRA 通过训练少量低秩适配参数调整模型行为。"}]}
+{"messages": [{"role": "user", "content": "量化有什么作用？"}, {"role": "assistant", "content": "量化用较低精度存储权重，减少内存和磁盘占用。"}]}
+{"messages": [{"role": "user", "content": "为什么需要对照组？"}, {"role": "assistant", "content": "对照组帮助判断观察到的差异是否来自实验干预。"}]}
+{"messages": [{"role": "user", "content": "一次回答变化能证明神经元功能吗？"}, {"role": "assistant", "content": "不能。需要更多样本、重复实验和适当的对照。"}]}

@@ -1,0 +1,4 @@
+{"messages": [{"role": "user", "content": "什么是验证集？"}, {"role": "assistant", "content": "验证集用于在训练过程中检查模型对未训练样本的表现。"}]}
+{"messages": [{"role": "user", "content": "什么是过拟合？"}, {"role": "assistant", "content": "过拟合是模型过度适应训练数据而泛化能力下降的现象。"}]}
+{"messages": [{"role": "user", "content": "什么是学习率？"}, {"role": "assistant", "content": "学习率控制每次训练更新参数的幅度。"}]}
+{"messages": [{"role": "user", "content": "什么是模型推理？"}, {"role": "assistant", "content": "模型推理是使用已有参数处理输入并产生输出的过程。"}]}

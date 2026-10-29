@@ -1,0 +1,27 @@
+# Local models, training artifacts and experiment data never belong in Git.
+/models/
+/adapters/
+/outputs/
+/logs/
+/work/
+/.venv/
+/.runtime/
+/.cache/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.partial
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
+/data/*
+!/data/example/
